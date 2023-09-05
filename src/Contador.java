@@ -12,8 +12,6 @@ public class Contador {
             
         }catch(ParametrosInvalidosException e){
             System.out.println(e.getMessage());
-        }catch (Exception e){
-            System.out.println(e.getMessage());
         }
         
     }
